@@ -131,19 +131,19 @@ int generateComb(string* data, string team1, int curr_size, int depth, int team_
 int main(int argc, char* argv[])
 {
   if(argc < 2){
-    cerr << "Please provide a file of names" << endl;
+    //cerr << "Please provide a file of names" << endl;
     return 1;
   }
   ifstream ifile(argv[1]);
   if(ifile.fail()){
-    cerr << "Error" << endl;
+    //cerr << "Error" << endl;
     return 1;
   }
   int num ;
   string name ;
   ifile >> num ;
   if(ifile.fail()){
-    cout << "Error" << endl ;
+    //cout << "Error" << endl ;
     return 1 ;
   } 
   //Dynamically allocate data
@@ -155,7 +155,7 @@ int main(int argc, char* argv[])
     ifile >> name ;
     //If one of the inputs is not a string, fail
     if(ifile.fail()){
-      cout << "Error" << endl ;
+      //cout << "Error" << endl ;
       return 1;
     }
     all = all + " " + name ;
