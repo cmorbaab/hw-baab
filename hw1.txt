@@ -1,0 +1,30 @@
+Cameron Baab:
+Question 1:
+Part a:
+	1.Looking up information relevant to the course online.
+	4.Asking the course staff for help.
+Part b:
+	emacs
+	eclipse
+	sublime
+	microsoft visual studio
+
+Part c:
+	Use the normal submission system provided you have grace-days available
+
+Part d:
+	Start the assignment sooner
+
+
+Question 2:
+Part a:
+	Terminal
+
+Part b:
+	git add hw1q2b.cpp
+	git log
+
+Part c:
+	Git will take those three files and add them to your repository
+
+
