@@ -181,19 +181,19 @@ bool findWordHelper(const vector<vector<char> >& grid,
 int main(int argc, char* argv[])
 {
   if(argc < 3){
-    cerr << "Please provide a grid filename and targetWord" << endl;
+    //cerr << "Please provide a grid filename and targetWord" << endl;
     return 1;
   }
   ifstream ifile(argv[1]);
   string targetWord(argv[2]);
   if(ifile.fail()){
-    cerr << "Unable to open input grid file" << endl;
+    //cerr << "Unable to open input grid file" << endl;
     return 1;
   }
 
   vector<vector<char> > mygrid;
   if( ! readGrid(ifile, mygrid) ){
-    cerr << "Error reading grid" << endl;
+    //cerr << "Error reading grid" << endl;
     ifile.close();
     return 1;
   }
